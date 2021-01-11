@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: wheat;
+}
+
+.color-change{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.color-button{
+    box-shadow: none;
+    width: 15rem;
+    height: 100px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 5px solid rgb(56, 55, 55);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Bangers', cursive;
+    line-height: 1.6em;
+    letter-spacing: 0.1rem;
+}
+
+.color-button:hover{
+    transform: scale(1.14);
+}
+span {
+    padding: 1.2rem;
+    font-size: 1rem;;
+    font-family: 'Bangers', cursive;
+  }
+
+h4{
+    margin-bottom: 1.2rem;
+    font-size: 1rem;;
+    font-family: cursive;
+}
